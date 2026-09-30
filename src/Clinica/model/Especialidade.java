@@ -1,11 +1,11 @@
 package Clinica.model;
 
 public enum Especialidade {
-    CLINICO_GERAL(10000),
+    CLINICO_GERAL(1000),
     PEDIATRA(483.40),
-    CARDIOLOGISTA(3464.34);
+    CARDIOLOGISTA(344.34);
 
-    private  double valorConsulta ;
+    private   final double valorConsulta ;
 
     Especialidade(double valorConsulta) {
         this.valorConsulta = valorConsulta;
